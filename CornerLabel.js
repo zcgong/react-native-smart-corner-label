@@ -6,14 +6,15 @@
  */
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
     StyleSheet,
+    ViewPropTypes,
     View,
     Text,
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
     container: {
@@ -39,7 +40,7 @@ export default class CornerLabel extends Component {
     }
 
     static propTypes = {
-        style: View.propTypes.style,
+        style: ViewPropTypes.style,
         textStyle: Text.propTypes.style,
         cornerRadius: PropTypes.number.isRequired,
         alignment: PropTypes.oneOf([
