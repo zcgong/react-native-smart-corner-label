@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-component/react-native-smart-corner-label.git"
+    "url": "git@github.com:zcgong/react-native-smart-corner-label.git"
   },
   "keywords": [
     "react-native",
